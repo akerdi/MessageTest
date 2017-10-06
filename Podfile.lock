@@ -1,0 +1,36 @@
+PODS:
+  - AVOSCloud (7.2.0)
+  - AVOSCloudIM (7.2.0):
+    - AVOSCloud (= 7.2.0)
+    - AVOSCloudIM/_ARC (= 7.2.0)
+    - AVOSCloudIM/_NOARC (= 7.2.0)
+  - AVOSCloudIM/_ARC (7.2.0):
+    - AVOSCloud (= 7.2.0)
+    - AVOSCloudIM/_NOARC (= 7.2.0)
+  - AVOSCloudIM/_NOARC (7.2.0):
+    - AVOSCloud (= 7.2.0)
+  - FMDB (2.7.2):
+    - FMDB/standard (= 2.7.2)
+  - FMDB/standard (2.7.2)
+  - LKDBHelper (2.4.4):
+    - LKDBHelper/standard (= 2.4.4)
+  - LKDBHelper/standard (2.4.4):
+    - FMDB
+  - ReactiveObjC (2.1.2)
+
+DEPENDENCIES:
+  - AVOSCloud
+  - AVOSCloudIM
+  - LKDBHelper
+  - ReactiveObjC (~> 2.1.2)
+
+SPEC CHECKSUMS:
+  AVOSCloud: 9f09a2a734fe980685866feded7f6129141e9336
+  AVOSCloudIM: a14d3ccf0808dff33160a3287c84aa7e3fa17995
+  FMDB: 6198a90e7b6900cfc046e6bc0ef6ebb7be9236aa
+  LKDBHelper: cf467ff69aaf1e13bd4964aca3a79881d54c6d14
+  ReactiveObjC: 7b6782ae39f9ac0f57205c3b0c0b69b9dd7048c0
+
+PODFILE CHECKSUM: 7a160821232aa0616b75874c5d2798981dc6d972
+
+COCOAPODS: 1.2.1
